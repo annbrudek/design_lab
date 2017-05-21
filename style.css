@@ -402,7 +402,7 @@ footer img {
   margin: 25px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .contact__button {
     width: 100px;
   }
