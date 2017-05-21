@@ -404,10 +404,14 @@ footer img {
 
 @media (max-width: 480px) {
   .contact__button {
-    width: 200px;
+    width: 100px;
   }
 
-  .about-us__wrapper::after, .about-us__wrapper::before, .services__wrapper::before, .services__wrapper::after, .contact__wrapper::after, .contact__wrapper::before {
+  .about-us__wrapper::after, .about-us__wrapper::before, .contact__wrapper::after, .contact__wrapper::before {
     width: 25%;
+  }
+
+  .services__wrapper::before, .services__wrapper::after {
+    width: 20%;
   }
 }
