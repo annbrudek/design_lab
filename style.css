@@ -414,4 +414,12 @@ footer img {
   .what-we-do__wrapper::before, .what-we-do__wrapper::after{
     width: 15%;
   }
+
+  .gallery__third, .gallery__third, .gallery__second, .gallery__fifth {
+    border-left: none;
+  }
+
+  .gallery__first, .gallery__second, .gallery__fourth, .gallery__fifth {
+    border-right: none;
+  }
 }
