@@ -404,7 +404,7 @@ footer img {
 
 @media (max-width: 480px) {
   .contact__button {
-    width: 100px;
+    min-width: 100px;
   }
 
   .about-us__wrapper::after, .about-us__wrapper::before, .services__wrapper::before, .services__wrapper::after, .contact__wrapper::after, .contact__wrapper::before {
@@ -412,6 +412,6 @@ footer img {
   }
 
   .what-we-do__wrapper::before, .what-we-do__wrapper::after{
-    width: 20%;
+    width: 15%;
   }
 }
