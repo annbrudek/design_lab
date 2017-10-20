@@ -102,16 +102,16 @@ nav {
     transition: 0.3s transform linear;
 }
 
-.menu__trigger:focus {
+.menu__trigger.open {
   transform: rotate(45deg) translateY(5px);
   border: none;
 }
 
-.menu__trigger:focus ~ .menu__wrapper, .menu__wrapper:hover {
+.menu__trigger.open ~ .menu__wrapper, .menu__wrapper:hover {
   display: block;
 }
 
-.menu__trigger:focus::after {
+.menu__trigger.open::after {
   transform: rotate(90deg) translateX(10px);
 }
 
